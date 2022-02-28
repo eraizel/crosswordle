@@ -32,22 +32,22 @@ const crosswords: CrosswordInput[] = [
     },
     down: {
       '1': {
-        answer: 'ADS',
+        answer: 'ACRA',
         row: 0,
         col: 0,
       },
       '2': {
-        answer: 'BROKE',
+        answer: 'DOIS',
         row: 0,
         col: 1,
       },
       '3': {
-        answer: 'CANID',
+        answer: 'ACASO',
         row: 0,
         col: 2,
       },
       '4': {
-        answer: 'SWING',
+        answer: 'MODEM',
         row: 0,
         col: 3,
       },
@@ -2245,47 +2245,57 @@ const crosswords: CrosswordInput[] = [
   {
     across: {
       '1': {
-          answer: 'CILIA',
+          answer: 'ADAM',
           row: 0,
           col: 0
       },
       '5': {
-          answer: 'UDON',
+          answer: 'COCOS',
           row: 1,
           col: 0
       },
-      '6': {
-          answer: 'REND',
+      '7': {
+          answer: 'RIADE',
           row: 2,
           col: 0
       },
-      '7': {
-          answer: 'LAGER',
+      '8': {
+          answer: 'ASSEI',
           row: 3,
           col: 0
+      },
+      '9': {
+          answer: 'OMS',
+          row: 4,
+          col: 2
       }
     },
     down: {
       '1': {
-          answer: 'CURL',
+          answer: 'ACRA',
           row: 0,
           col: 0
       },
       '2': {
-          answer: 'IDEAL',
+          answer: 'DOIS',
           row: 0,
           col: 1
       },
       '3': {
-          answer: 'LONG',
+          answer: 'ACASO',
           row: 0,
           col: 2
       },
       '4': {
-          answer: 'INDEX',
+          answer: 'MODEM',
           row: 0,
           col: 3
-      }
+      },
+      '6': {
+        answer: 'SEIS',
+        row: 1,
+        col: 4
+    }
     }
   },
   // 41
