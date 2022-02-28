@@ -2357,6 +2357,69 @@ const crosswords: CrosswordInput[] = [
   },
   // 42
   {
+    author: 'Tanishque',
+    across: {
+        '1': {
+            answer: 'SUNG',
+            row: 0,
+            col: 0
+        },
+        '4': {
+            answer: 'ON',
+            row: 1,
+            col: 0
+        },
+        '5': {
+            answer: 'OK',
+            row: 1,
+            col: 3
+        },
+        '7': {
+            answer: 'ACTON',
+            row: 2,
+            col: 0
+        },
+        '9': {
+            answer: 'PLANE',
+            row: 3,
+            col: 0
+        },
+        '10': {
+            answer: 'SENSE',
+            row: 4,
+            col: 0
+        }
+    },
+    down: {
+        '1': {
+            answer: 'SOAPS',
+            row: 0,
+            col: 0
+        },
+        '2': {
+            answer: 'UNCLE',
+            row: 0,
+            col: 1
+        },
+        '3': {
+            answer: 'GOONS',
+            row: 0,
+            col: 3
+        },
+        '6': {
+            answer: 'KNEE',
+            row: 1,
+            col: 4
+        },
+        '8': {
+            answer: 'TAN',
+            row: 2,
+            col: 2
+        }
+    }
+  },
+  // 43
+  {
     across: {
       '1': {
           answer: 'ALAS',
@@ -2412,7 +2475,7 @@ const crosswords: CrosswordInput[] = [
       }
     }
   },
-  // 43
+  // 44
   {
     across: {
         '1': {
@@ -2464,7 +2527,7 @@ const crosswords: CrosswordInput[] = [
         }
     }
   },
-  // 44
+  // 45
   {
     across: {
         '1': {
@@ -2521,7 +2584,7 @@ const crosswords: CrosswordInput[] = [
         }
     }
   },
-  // 45
+  // 46
   {
     across: {
       '1': {
@@ -2578,7 +2641,7 @@ const crosswords: CrosswordInput[] = [
       }
     }
   },
-  // 46
+  // 47
   {
     across: {
       '1': {
@@ -2635,7 +2698,7 @@ const crosswords: CrosswordInput[] = [
       }
     }
   },
-  // 47
+  // 48
   {
     across: {
         '1': {
@@ -2692,7 +2755,7 @@ const crosswords: CrosswordInput[] = [
         }
     }
   },
-  // 48
+  // 49
   {
     across: {
         '3': {
@@ -2744,7 +2807,7 @@ const crosswords: CrosswordInput[] = [
         }
     }
   },
-  // 49
+  // 50
   {
     across: {
       '1': {
