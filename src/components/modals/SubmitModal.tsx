@@ -58,11 +58,11 @@ export const SubmitModal = ({ isOpen, handleClose }: Props) => {
                     as="h3"
                     className="text-lg leading-6 font-medium text-gray-900"
                   >
-                    Submit a crosswordle
+                    Envie um Crudle
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
-                      If you enjoy the crosswordle and are good at making crosswords consider submitting your own crosswordle for everyone to play!
+                      If you enjoy the crudle and are good at making crosswords consider submitting your own crosswordle for everyone to play!
                     </p>
                     <p className='text-sm mt-3 text-gray-500'>
                       First build a 5x5 crossword puzzle using only words in the english dictionary. I recommend using{' '}

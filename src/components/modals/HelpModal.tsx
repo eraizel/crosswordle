@@ -63,115 +63,115 @@ export const HelpModal = ({ isOpen, handleClose }: Props) => {
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
-                      Solve the Crosswordle by guessing the WORDLE for each down and across word.
-                      Click on a row in the crossword to begin guessing. You have 6 tries to guess each word.
-                      After each guess the color of the tiles will change to show how close your guess was
-                      to the word.
+                      Resolva o Crudle adivinhando o WORDLE para cada palavra horizontal e vertical.
+                      Clique na linha da cruzada e use as regras do Wordle para resolver. Você possui 6 tentivas para cada palavra.
+                      Assim como no Wordle a cada tentativa a cor das letras vai trocar para indicar o quão próximo
+                      de acertar a palavra.
                     </p>
 
                     <div className="flex justify-center mb-1 mt-4">
-                      <Cell value="W" status="correct" />
-                      <Cell value="E" />
+                      <Cell value="A" status="correct" />
+                      <Cell value="C" />
                       <Cell value="A" />
-                      <Cell value="R" />
-                      <Cell value="Y" />
+                      <Cell value="S" />
+                      <Cell value="O" />
                     </div>
                     <p className="text-sm text-gray-500">
-                      The letter W is in the word and in the correct spot.
+                      A letra A está na palabra e está na posição correta.
                     </p>
 
                     <div className="flex justify-center mb-1 mt-4">
-                      <Cell value="P" />
-                      <Cell value="I" />
-                      <Cell value="L" status="present" />
-                      <Cell value="O" />
-                      <Cell value="T" />
+                      <Cell value="N" />
+                      <Cell value="U" />
+                      <Cell value="V" status="present" />
+                      <Cell value="E" />
+                      <Cell value="M" />
                     </div>
                     <p className="text-sm text-gray-500">
-                      The letter L is in the word but in the wrong spot.
+                      A letra V existe na palavra mas está na posição errada.
                     </p>
 
                     <div className="flex justify-center mb-1 mt-4">
                       <Cell value="V" />
                       <Cell value="A" />
                       <Cell value="G" />
-                      <Cell value="U" status="absent" />
-                      <Cell value="E" />
+                      <Cell value="O" status="absent" />
+                      <Cell value="S" />
                     </div>
                     <p className="text-sm text-gray-500">
-                      The letter U is not in the word in any spot.
+                      A letra O não existe na palavra.
                     </p>
 
                     <br />
                     <p className="text-sm text-gray-500">
-                      If you are stuck on a word you can try solving the words that cross it.
-                      Click on the selected tile to change directions.
-                      Once a letter has been found in any word crossing a letter it will show up in green.
+                      Se você travar em alguma das palavras.
+                      Clique nas celulas para trocar a direção horizontal e vertical.
+                      Se a letra for encontrada na posição correta em qualquer direção a letra vai se tornar verde.
                     </p>
 
                     <div className="flex justify-center mb-1 mt-4">
+                      <Cell value="V" />
+                      <Cell value="I" />
                       <Cell value="S" />
-                      <Cell value="T" />
-                      <Cell value="A" />
-                      <Cell value="N" />
-                      <Cell knownValue="D" />
+                      <Cell value="O" />
+                      <Cell knownValue="R" />
                     </div>
                     <p className="text-sm text-gray-500">
-                      The letter D is known to be in this spot because it has been found in either the down or across clue.
+                      A letra R exite nesta posição por que foi encontrada na vertical ou horizontal.
                     </p>
                     <br />
 
-                    <h4>Keyboard</h4>
-                    <p className='text-sm text-gray-500'>The virtual keyboard will update to reflect given information on the selected word.</p>
+                    <h4>Teclado</h4>
+                    <p className='text-sm text-gray-500'>O teclado vai mudar de cor de acordo com as tentativas.</p>
                     <div className="flex mb-1 mt-4 items-center">
                       <div className='grow mr-2'>
                         <Key value="X"/>
                       </div>
-                      <p className="text-sm text-gray-500 text-left">The letter X might appear in the selected word.</p>
+                      <p className="text-sm text-gray-500 text-left">A letra X pode aparecer na palavra selecionada.</p>
                     </div>
                     <div className="flex mb-1 mt-4 items-center">
                       <div className='grow mr-2'>
-                        <Key value="Y" status='present'/>
+                        <Key value="P" status='present'/>
                       </div>
-                      <p className="text-sm text-gray-500 text-left">The letter Y appears in the selected word but is in the wrong position.</p>
+                      <p className="text-sm text-gray-500 text-left">A letra P está na palavra selecionada mas está na posição errada.</p>
                     </div>
                     <div className="flex mb-1 mt-4 items-center">
                       <div className='grow mr-2'>
                         <Key value="Z" status='correct'/>
                       </div>
                       <p className="text-sm text-gray-500 text-left">
-                        The letter Z appears in the selected word and was previously guessed in the correct position.
-                        It may appear another time.
+                        A letra Z existe na palavra selecionada e foi usada na posição correta.
+                        Ela pode aparecer novamente.
                       </p>
                     </div>
                     <br />
                     <p className="text-sm text-gray-500">
-                      Additionally you might see the following keys relating to the letter you have selected.
+                      Você também poderá encontrar as seguintes cores para as letras que você selecionar.
                     </p>
                     <div className="flex mb-1 mt-4 items-center">
                       <div className='grow mr-2'>
                         <Key value="X" crossedStatus='absent'/>
                       </div>
-                      <p className="text-sm text-gray-500 text-left">The letter X might appear in the selected word but is not the selected letter.</p>
+                      <p className="text-sm text-gray-500 text-left">A letra X pode aparecer na palavra selecionada.</p>
                     </div>
                     <div className="flex mb-1 mt-4 items-center">
                       <div className='grow mr-2'>
-                        <Key value="Y" status='present' crossedStatus='absent'/>
+                        <Key value="P" status='present' crossedStatus='absent'/>
                       </div>
-                      <p className="text-sm text-gray-500 text-left">The letter Y appears in the selected word but is not the selected letter.</p>
+                      <p className="text-sm text-gray-500 text-left">A letra P está na palavra selecionada mas está na posição errada.</p>
                     </div>
                     <div className="flex mb-1 mt-4 items-center">
                       <div className='grow mr-2'>
                         <Key value="Z" status='correct' crossedStatus='absent'/>
                       </div>
                       <p className="text-sm text-gray-500 text-left">
-                        The letter Z appears in the selected word and was previously guessed in the correct position.
-                        It may appear another time, but is not the selected letter.
+                        A letra Z existe na palavra selecionada e foi usada na posição correta.
+                        Ela pode aparecer novamente.
                       </p>
                     </div>
                     <br />
                     <p className="text-sm text-gray-500">
-                      When you type a letter the next letter in the word will automatically be selected.
+                      Quando você entrar uma letra a próxima letra na palavra será ativada.
                     </p>
                   </div>
                 </div>

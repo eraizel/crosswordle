@@ -23,7 +23,7 @@ import { otherDirection } from './lib/crossword-utils';
 
 smoothscroll.polyfill();
 const { initialClue, initialDirection } = getInitialClue(crosswordData);
-if (window.location.origin === 'http://www.crosswordle.mekoppe.com') window.location.href = 'https://crosswordle.mekoppe.com';
+if (window.location.origin === 'http://crudle.vercel.app/') window.location.href = 'https://crudle.vercel.app/';
 
 function App() {
   const crosswordRef = useRef<ElementRef<typeof Crossword>>(null);
@@ -211,8 +211,8 @@ function App() {
     <div className='flex flex-col min-h-screen'>
       <div className="flex w-screen mx-auto items-center border-b-slate-400 border-b-[1px] p-4">
         <div className='grow'>
-          <h1 className="text-l md:text-xl font-bold whitespace-nowrap">Crosswordle {crosswordIndex + 1}</h1>
-          <p className="text-sm text-slate-400">By {crosswordData.author || 'Matthew Koppe'}</p>
+          <h1 className="text-l md:text-xl font-bold whitespace-nowrap">Crudle {crosswordIndex + 1}</h1>
+          <p className="text-sm text-slate-400">By {crosswordData.author || 'eraizel'}</p>
         </div>
         <PresentationChartBarIcon
           className="h-6 w-6 ml-3 mr-3 cursor-pointer"

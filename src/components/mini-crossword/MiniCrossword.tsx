@@ -27,7 +27,7 @@ export const MiniCrossword = React.forwardRef<SVGSVGElement, Props>(({ gridData,
     <svg viewBox={`0 0 ${SVG_WIDTH} ${svgHeight}`} width={SVG_WIDTH} height={svgHeight} ref={ref}>
       <rect x={0} y={0} width={SVG_WIDTH} height={svgHeight} fill="white" />
       <text x={SVG_WIDTH / 2} y={SVG_HEADER_SIZE / 2} textAnchor="middle" dominantBaseline='hanging' fontSize={14}>
-        Crosswordle #{crosswordIndex + 1} - {totalGuesses} guesses
+        Crudle #{crosswordIndex + 1} - {totalGuesses} tentativas
       </text>
       <rect x={margin} y={margin + SVG_HEADER_SIZE} width={crosswordSize} height={crosswordSize} fill="black" />
       {gridData.flat().map((cell: CellData) => {

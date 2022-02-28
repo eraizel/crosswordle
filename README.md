@@ -1,10 +1,9 @@
-# Crosswordle
+# Crudle
 
-Crossword + Wordle
+Cruzadas + Wordle
 
-Play the game [here](https://crosswordle.mekoppe.com)
+Comece a jogar [aqui](https://crudle.vercel.app)
 
-- Go play the real Wordle [here](https://www.powerlanguage.co.uk/wordle/)
-- Read the story behind it [here](https://www.nytimes.com/2022/01/03/technology/wordle-word-game-creator.html)
-
-Initially cloned the project from https://github.com/cwackerfuss/react-wordle
+- Jogue o Palabro [aqui](https://palabro-silk.vercel.app)
+- Jogue o Mundlo [aqui](https://mundlo.vercel.app/)
+- Envie a sua cruzadinha de 5x5 para nós aqui mesmo.

@@ -51,13 +51,13 @@ export const ShareModal = ({
   const isGameLost = Boolean(lostCell);
   const [timeTillNext, setTimeTillNext] = useState(timeTillTomorrow);
   const [creatingGif, setCreatingGif] = useState<boolean>(false);
-  const [gifEncoder, setGifEncoder] = useState<Gif>(createGifEncoder(`Crosswordle-${crosswordIndex + 1}.gif`, () => setCreatingGif(false)));
+  const [gifEncoder, setGifEncoder] = useState<Gif>(createGifEncoder(`Crudle-${crosswordIndex + 1}.gif`, () => setCreatingGif(false)));
   const svgRef = useRef<SVGSVGElement>(null);
   const [cellColors, setCellColors] = useState<{ [key: string]: string }>();
   const [gridData] = useState<GridData>(createGridData(crossword));
   const totalGuesses = getTotalGuesses(guesses);
 
-  // Update time till next crosswordle every second
+  // Update time till next crudle every second
   useEffect(() => {
     const interval = setInterval(() => {
       setTimeTillNext(timeTillTomorrow);
@@ -90,7 +90,7 @@ export const ShareModal = ({
   const renderGif = useCallback(() => {
     gifEncoder.render();
     // Create a fresh encoder for next share
-    setGifEncoder(createGifEncoder(`Crosswordle-${crosswordIndex + 1}.gif`, () => setCreatingGif(false)));
+    setGifEncoder(createGifEncoder(`Crudle-${crosswordIndex + 1}.gif`, () => setCreatingGif(false)));
   }, [gifEncoder, setGifEncoder]);
 
   const share = useCallback(async () => {
@@ -110,22 +110,22 @@ export const ShareModal = ({
         await addSvgFrame(svg, delay);
       }
       renderGif();
-      let shareText = 'https://crosswordle.mekoppe.com';
-      if (isGameWon) shareText = `I solved the crosswordle in ${totalGuesses} Guesses!\n${shareText}`;
+      let shareText = 'https://crudle.vercel.app';
+      if (isGameWon) shareText = `Resolvi o crudle de hoje em ${totalGuesses} tentativas!\n${shareText}`;
       navigator.clipboard.writeText(shareText);
       resolve('');
     });
 
     toast.promise(playback, {
-      pending: 'Rendering shareable GIF',
-      success: 'Replay GIF downloaded and shareable link copied to clipboard',
-      error: 'Something went wrong...'
+      pending: 'Renderizando a resolução em GIF animado',
+      success: 'Replay da resolução copiado para a área de trabalho',
+      error: 'Alguma couisa não deu certo...'
     });
   }, [svgRef, addSvgFrame, renderGif, shareHistory, isGameWon, isGameLost, totalGuesses]);
 
-  let title = `Crosswordle #${crosswordIndex + 1}`;
-  if (isGameWon) title = 'You Won!';
-  if (isGameLost) title = 'You Lost!';
+  let title = `Crudle #${crosswordIndex + 1}`;
+  if (isGameWon) title = 'Você Venceu!';
+  if (isGameLost) title = 'Você Perdeu!';
 
   return (
     <Transition.Root show={isOpen} as={Fragment}>
@@ -197,17 +197,17 @@ export const ShareModal = ({
                   <div className="mt-2">
                   {isGameWon && (
                     <>
-                      <p>You solved the crosswordle in {totalGuesses} guesses!</p>
-                      <p className="text-sm text-gray-500">Great job.</p>
+                      <p>Você resolveu o Crudle de hoje em {totalGuesses} tentativas!</p>
+                      <p className="text-sm text-gray-500">Você é um gênio. Você deveria ser estudado</p>
                     </>
                   )}
                   {isGameLost && (
                     <>
-                      <p>You made {totalGuesses} guesses!</p>
-                      <p className="text-sm text-gray-500">Better luck next time!</p>
+                      <p>Você tentou {totalGuesses} palavras diferentes!</p>
+                      <p className="text-sm text-gray-500">Boa sorte na próxima!</p>
                     </>
                   )}
-                  {!isGameWon && !isGameLost && totalGuesses > 0 && <p>You have made {totalGuesses} guesses!</p>}
+                  {!isGameWon && !isGameLost && totalGuesses > 0 && <p>Você tentou {totalGuesses} palavras diferentes!</p>}
                   </div>
                   <div className="flex justify-center items-end w-full overflow-y-hidden" style={{ height: SVG_WIDTH }}>
                     {gridData && <MiniCrossword gridData={gridData} ref={svgRef} cellColors={cellColors} totalGuesses={totalGuesses} />}
@@ -217,7 +217,7 @@ export const ShareModal = ({
               <div className="mt-5 sm:mt-6">
                 <div className='flex justify-center items-center text-center'>
                   <div className='w-1/2 border-r-slate-300 border-r-[1px] mr-2 flex-col justify-center items-center text-center'>
-                    <p>Next Crosswordle</p>
+                    <p>Próximo Crudle</p>
                     <p className='text-xl'>{timeTillNext}</p>
                   </div>
                   <div className='w-1/2 ml-2 flex justify-center items-center text-center'>
@@ -229,7 +229,7 @@ export const ShareModal = ({
                     >
                       {creatingGif ? 'Creating GIF' : (
                         <>
-                          <span className="mr-2">Share</span>
+                          <span className="mr-2">Compartilhe</span>
                           <ShareIcon width={20} height={20}/>
                         </>
                       )}
@@ -238,15 +238,15 @@ export const ShareModal = ({
                 </div>
                 { (
                   <div className="flex flex-col mx-auto items-center m-4 md:m-6 text-center border-t border-t-slate-300">
-                    <p className="p-4">Enjoying the crosswordle?</p>
+                    <p className="p-4">❤️❤️ Crudle?</p>
                     <button
                       type="button"
                       className="mx-auto flex items-center px-2.5 py-1.5 border border-transparent text-xs font-medium rounded text-indigo-700 bg-indigo-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                       onClick={openSubmitModal}
                     >
-                      Submit your own crosswordle!
+                      Pague-me um café!
                     </button>
-                  </div>
+                    </div>
                 )}
               </div>
             </div>
