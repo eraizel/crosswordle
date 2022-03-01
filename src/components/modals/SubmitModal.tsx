@@ -70,7 +70,7 @@ export const SubmitModal = ({ isOpen, handleClose }: Props) => {
                     </p>
                     <p className='text-sm mt-3 text-gray-500'>
                       Then take a screenshot of your crossword and email it to{' '}
-                      <a href="mailto:crosswordle.submissions@gmail.com" className="underline font-bold" target="_blank" rel="noreferrer" onClick={() => trackEvent('email_submission')}>crosswordle.submissions@gmail.com</a>
+                      <a href="mailto:eraizel+crudle@gmail.com" className="underline font-bold" target="_blank" rel="noreferrer" onClick={() => trackEvent('email_submission')}>crosswordle.submissions@gmail.com</a>
                       {' '}along with your name so you can get credit for the puzzle!
                     </p>
                     <p className='mt-3 text-gray-500'>A couple tips:</p>

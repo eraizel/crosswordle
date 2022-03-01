@@ -57,28 +57,28 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
                     as="h3"
                     className="text-lg leading-6 font-medium text-gray-900"
                   >
-                    About
+                    Sobre o <b>CRUDLE</b>
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
-                      This is an open source variation of the game wordle
-                      where you solve a daily mini crossword using wordle rules -{' '}
+                      Esta é uma versão de cruzadinhas do jogo <b>WORDLE </b>
+                       - {' '}
                       <a
-                        href="https://www.powerlanguage.co.uk/wordle/"
+                        href="https://palabro-silk.vercel.app"
                         className="underline font-bold"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        play the wordle here
+                        Jogue Palabro
                       </a>
-                      {' '}and{' '}
+                      {' '}e as cruzadinhas{' '}
                       <a
                         href="https://www.nytimes.com/crosswords/game/mini"
                         className="underline font-bold"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        play the daily crossword mini here
+                         aqui
                       </a>. Crosswords are created using{' '}
                       <a
                         href="https://crosshare.org/"

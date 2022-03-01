@@ -59,14 +59,13 @@ export const HelpModal = ({ isOpen, handleClose }: Props) => {
                     as="h3"
                     className="text-lg leading-6 font-medium text-gray-900"
                   >
-                    How to play
+                    Como Jogar?
                   </Dialog.Title>
                   <div className="mt-2">
-                    <p className="text-sm text-gray-500">
-                      Resolva o Crudle adivinhando o WORDLE para cada palavra horizontal e vertical.
-                      Clique na linha da cruzada e use as regras do Wordle para resolver. Você possui 6 tentivas para cada palavra.
-                      Assim como no Wordle a cada tentativa a cor das letras vai trocar para indicar o quão próximo
-                      de acertar a palavra.
+                    <p className="text-sm text-gray-500 text-justify">
+                      Para resolver o <b>CRUDLE</b> de hoje considere cada linha ou coluna como um <b>WORDLE</b>. Você possui 
+                      6 tentativas para cada palavra.
+                      <br />
                     </p>
 
                     <div className="flex justify-center mb-1 mt-4">
@@ -77,7 +76,7 @@ export const HelpModal = ({ isOpen, handleClose }: Props) => {
                       <Cell value="O" />
                     </div>
                     <p className="text-sm text-gray-500">
-                      A letra A está na palabra e está na posição correta.
+                      A letra <b>A</b> está na posição correta.
                     </p>
 
                     <div className="flex justify-center mb-1 mt-4">
@@ -88,7 +87,7 @@ export const HelpModal = ({ isOpen, handleClose }: Props) => {
                       <Cell value="M" />
                     </div>
                     <p className="text-sm text-gray-500">
-                      A letra V existe na palavra mas está na posição errada.
+                      A letra <b>V</b> está na posição errada.
                     </p>
 
                     <div className="flex justify-center mb-1 mt-4">
@@ -99,16 +98,8 @@ export const HelpModal = ({ isOpen, handleClose }: Props) => {
                       <Cell value="S" />
                     </div>
                     <p className="text-sm text-gray-500">
-                      A letra O não existe na palavra.
+                      A letra <b>O</b> não existe na palavra.
                     </p>
-
-                    <br />
-                    <p className="text-sm text-gray-500">
-                      Se você travar em alguma das palavras.
-                      Clique nas celulas para trocar a direção horizontal e vertical.
-                      Se a letra for encontrada na posição correta em qualquer direção a letra vai se tornar verde.
-                    </p>
-
                     <div className="flex justify-center mb-1 mt-4">
                       <Cell value="V" />
                       <Cell value="I" />
@@ -117,62 +108,45 @@ export const HelpModal = ({ isOpen, handleClose }: Props) => {
                       <Cell knownValue="R" />
                     </div>
                     <p className="text-sm text-gray-500">
-                      A letra R exite nesta posição por que foi encontrada na vertical ou horizontal.
+                      A letra <b>R</b> está no local correto.
                     </p>
+                    <br />
+                    <div className="flex justify-center mb-1 mt-4">
+                      <Key value="T"/>
+                      <Key value="E"/>
+                      <Key value="C"/>
+                      <Key value="L"/>
+                      <Key value="A"/>
+                      <Key value="D"/>
+                      <Key value="O"/>
+                    </div>
+                    <p className='text-sm text-gray-500'>O teclado vai mudar conforme as tentativas.</p>
+                    <div className="flex justify-center mb-1 mt-4">
+                        <Key value="A"/>
+                        <Key value="B" status='correct'/>
+                        <Key value="C" status='present'/> 
+                        <Key value="D" crossedStatus='absent'/>
+                        <Key value="E" status='present' crossedStatus='absent'/>
+                        <Key value="F" status='correct' crossedStatus='absent'/>
+                    </div>
+                    
+                    <p className="text-sm text-gray-500 text-justify">
+                      A letra <b>A</b> ainda ainda não foi utilizada.
+                      <br />
+                      A letra <b>B</b> existe mas está na posição errada.
+                      <br />
+                      A letra <b>C</b> está na posição correta.
+                      <br />
+                      A letra <b>D</b> ainda ainda não foi utilizada.
+                      <br />
+                      A letra <b>E</b> existe mas está na posição errada.
+                      <br />
+                      A letra <b>F</b> está na posição correta.
+                    </p> 
+                    
                     <br />
 
-                    <h4>Teclado</h4>
-                    <p className='text-sm text-gray-500'>O teclado vai mudar de cor de acordo com as tentativas.</p>
-                    <div className="flex mb-1 mt-4 items-center">
-                      <div className='grow mr-2'>
-                        <Key value="X"/>
-                      </div>
-                      <p className="text-sm text-gray-500 text-left">A letra X pode aparecer na palavra selecionada.</p>
-                    </div>
-                    <div className="flex mb-1 mt-4 items-center">
-                      <div className='grow mr-2'>
-                        <Key value="P" status='present'/>
-                      </div>
-                      <p className="text-sm text-gray-500 text-left">A letra P está na palavra selecionada mas está na posição errada.</p>
-                    </div>
-                    <div className="flex mb-1 mt-4 items-center">
-                      <div className='grow mr-2'>
-                        <Key value="Z" status='correct'/>
-                      </div>
-                      <p className="text-sm text-gray-500 text-left">
-                        A letra Z existe na palavra selecionada e foi usada na posição correta.
-                        Ela pode aparecer novamente.
-                      </p>
-                    </div>
                     <br />
-                    <p className="text-sm text-gray-500">
-                      Você também poderá encontrar as seguintes cores para as letras que você selecionar.
-                    </p>
-                    <div className="flex mb-1 mt-4 items-center">
-                      <div className='grow mr-2'>
-                        <Key value="X" crossedStatus='absent'/>
-                      </div>
-                      <p className="text-sm text-gray-500 text-left">A letra X pode aparecer na palavra selecionada.</p>
-                    </div>
-                    <div className="flex mb-1 mt-4 items-center">
-                      <div className='grow mr-2'>
-                        <Key value="P" status='present' crossedStatus='absent'/>
-                      </div>
-                      <p className="text-sm text-gray-500 text-left">A letra P está na palavra selecionada mas está na posição errada.</p>
-                    </div>
-                    <div className="flex mb-1 mt-4 items-center">
-                      <div className='grow mr-2'>
-                        <Key value="Z" status='correct' crossedStatus='absent'/>
-                      </div>
-                      <p className="text-sm text-gray-500 text-left">
-                        A letra Z existe na palavra selecionada e foi usada na posição correta.
-                        Ela pode aparecer novamente.
-                      </p>
-                    </div>
-                    <br />
-                    <p className="text-sm text-gray-500">
-                      Quando você entrar uma letra a próxima letra na palavra será ativada.
-                    </p>
                   </div>
                 </div>
               </div>

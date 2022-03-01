@@ -213,6 +213,7 @@ function App() {
         <div className='grow'>
           <h1 className="text-l md:text-xl font-bold whitespace-nowrap">Crudle {crosswordIndex + 1}</h1>
           <p className="text-sm text-slate-400">By {crosswordData.author || 'eraizel'}</p>
+
         </div>
         <PresentationChartBarIcon
           className="h-6 w-6 ml-3 mr-3 cursor-pointer"
