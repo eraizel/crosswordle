@@ -123,7 +123,7 @@ export const ShareModal = ({
     });
   }, [svgRef, addSvgFrame, renderGif, shareHistory, isGameWon, isGameLost, totalGuesses]);
 
-  let title = `Crudle #${crosswordIndex + 1}`;
+  let title = `Crudle #${crosswordIndex + 1} ${crossword.author || 'eraizel'}`; 
   if (isGameWon) title = 'Você Venceu!';
   if (isGameLost) title = 'Você Perdeu!';
 
@@ -217,7 +217,7 @@ export const ShareModal = ({
               <div className="mt-5 sm:mt-6">
                 <div className='flex justify-center items-center text-center'>
                   <div className='w-1/2 border-r-slate-300 border-r-[1px] mr-2 flex-col justify-center items-center text-center'>
-                    <p>Próximo Crudle</p>
+                    <p>Próximo <b>CRUDLE</b></p>
                     <p className='text-xl'>{timeTillNext}</p>
                   </div>
                   <div className='w-1/2 ml-2 flex justify-center items-center text-center'>

@@ -79,7 +79,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
                         rel="noreferrer"
                       >
                          aqui
-                      </a>. Crosswords are created using{' '}
+                      </a>. As cruzadas são criadas usando{' '}
                       <a
                         href="https://crosshare.org/"
                         className="underline font-bold"
@@ -87,7 +87,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
                         rel="noreferrer"
                       >
                         Crosshare.org
-                      </a>
+                      </a> Crie a sua e envie que lhe daremos o crédito.
                     </p>
                   </div>
                 </div>

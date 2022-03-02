@@ -169,7 +169,7 @@ function App() {
 
     // Alert user if guess is not a word
     if (!isWordInWordList(currentGuess) && currentGuess !== currentWord) {
-      toast.error('Word not found');
+      toast.error('Palavra não encontrada');
       return;
     }
 
@@ -212,7 +212,7 @@ function App() {
       <div className="flex w-screen mx-auto items-center border-b-slate-400 border-b-[1px] p-4">
         <div className='grow'>
           <h1 className="text-l md:text-xl font-bold whitespace-nowrap">Crudle {crosswordIndex + 1}</h1>
-          <p className="text-sm text-slate-400">By {crosswordData.author || 'eraizel'}</p>
+          <p className="text-sm text-slate-400">enviado por {crosswordData.author || 'eraizel'}</p>
 
         </div>
         <PresentationChartBarIcon
