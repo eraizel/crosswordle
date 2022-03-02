@@ -5,56 +5,56 @@ const crosswords: CrosswordInput[] = [
   {
     across: {
       '1': {
-        answer: 'ABCS',
+        answer: 'CRUZ',
         row: 0,
-        col: 0,
+        col: 1,
       },
       '5': {
-        answer: 'DRAW',
+        answer: 'ARAME',
         row: 1,
         col: 0,
       },
       '6': {
-        answer: 'SONIA',
+        answer: 'TAPIR',
         row: 2,
         col: 0,
       },
-      '8': {
-        answer: 'KING',
+      '7': {
+        answer: 'USADO',
         row: 3,
-        col: 1,
+        col: 0,
       },
-      '9': {
-        answer: 'EDGE',
+      '8': {
+        answer: 'MERO',
         row: 4,
-        col: 1,
+        col: 0,
       }
     },
     down: {
       '1': {
-        answer: 'ACRA',
-        row: 0,
-        col: 0,
-      },
-      '2': {
-        answer: 'DOIS',
+        answer: 'CRASE',
         row: 0,
         col: 1,
       },
-      '3': {
-        answer: 'ACASO',
+      '2': {
+        answer: 'RAPAR',
         row: 0,
         col: 2,
       },
-      '4': {
-        answer: 'MODEM',
+      '3': {
+        answer: 'UMIDO',
         row: 0,
         col: 3,
       },
-      '7': {
-        answer: 'AGE',
-        row: 2,
+      '4': {
+        answer: 'ZERO',
+        row: 0,
         col: 4,
+      },
+      '5': {
+        answer: 'ATUM',
+        row: 1  ,
+        col: 0,
       }
     },
   },
