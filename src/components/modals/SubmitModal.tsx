@@ -62,7 +62,7 @@ export const SubmitModal = ({ isOpen, handleClose }: Props) => {
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
-                      Gostou do <b>CRUDLE</b>? Envie o seu na nós!
+                      Gostou do <b>CRUDLE</b>? Envie o seu para nós!
                     </p>
                     <p className='text-sm mt-3 text-gray-500'>
                       Faça uma cruzada de 5x5. Eu recomendo usar {' '}
