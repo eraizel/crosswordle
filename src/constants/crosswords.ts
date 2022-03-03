@@ -60,6 +60,7 @@ const crosswords: CrosswordInput[] = [
   },
   // 2
   {
+    author: '@YasminL34181632',
     across: {
       '1': {
         answer: 'LETRA',
