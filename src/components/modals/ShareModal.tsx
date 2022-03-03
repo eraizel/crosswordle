@@ -111,7 +111,7 @@ export const ShareModal = ({
       }
       renderGif();
       let shareText = 'https://crudle.vercel.app';
-      if (isGameWon) shareText = `Resolvi o crudle de hoje em ${totalGuesses} tentativas!\n${shareText}`;
+      if (isGameWon) shareText = `Resolvi o #crudle de hoje em ${totalGuesses} tentativas!\n${shareText}`;
       navigator.clipboard.writeText(shareText);
       resolve('');
     });
@@ -123,7 +123,7 @@ export const ShareModal = ({
     });
   }, [svgRef, addSvgFrame, renderGif, shareHistory, isGameWon, isGameLost, totalGuesses]);
 
-  let title = `Crudle #${crosswordIndex + 1} ${crossword.author || 'eraizel'}`; 
+  let title = `#Crudle #${crosswordIndex + 1} ${crossword.author || 'eraizel'}`; 
   if (isGameWon) title = 'Você Venceu!';
   if (isGameLost) title = 'Você Perdeu!';
 
@@ -197,7 +197,7 @@ export const ShareModal = ({
                   <div className="mt-2">
                   {isGameWon && (
                     <>
-                      <p>Você resolveu o Crudle de hoje em {totalGuesses} tentativas!</p>
+                      <p>Você resolveu o #Crudle de hoje em {totalGuesses} tentativas!</p>
                       <p className="text-sm text-gray-500">Você é um gênio. Você deveria ser estudado</p>
                     </>
                   )}
