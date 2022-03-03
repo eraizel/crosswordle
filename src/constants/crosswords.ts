@@ -62,56 +62,56 @@ const crosswords: CrosswordInput[] = [
   {
     across: {
       '1': {
-        answer: 'JARS',
+        answer: 'LETRA',
         row: 0,
-        col: 1,
-      },
-      '5': {
-        answer: 'MELON',
-        row: 1,
         col: 0,
       },
       '6': {
-        answer: 'ALIBI',
-        row: 2,
+        answer: 'ARIES',
+        row: 1,
         col: 0,
       },
       '7': {
-        answer: 'SLEEP',
-        row: 3,
+        answer: 'CRETA',
+        row: 2,
         col: 0,
       },
       '8': {
-        answer: 'TONS',
+        answer: 'RATO',
+        row: 3,
+        col: 0,
+      },
+      '9': {
+        answer: 'ERA',
         row: 4,
         col: 0,
       },
     },
     down: {
       '1': {
-        answer: 'JELLO',
+        answer: 'LACRA',
+        row: 0,
+        col: 0,
+      },
+      '2': {
+        answer: 'ERRAR',
         row: 0,
         col: 1,
       },
-      '2': {
-        answer: 'ALIEN',
+      '3': {
+        answer: 'TIETA',
         row: 0,
         col: 2,
       },
-      '3': {
-        answer: 'ROBES',
+      '4': {
+        answer: 'RATO',
         row: 0,
         col: 3,
       },
-      '4': {
-        answer: 'SNIP',
+      '5': {
+        answer: 'ASA',
         row: 0,
         col: 4,
-      },
-      '5': {
-        answer: 'MAST',
-        row: 1,
-        col: 0,
       },
     }
   },
@@ -119,55 +119,55 @@ const crosswords: CrosswordInput[] = [
   {
     across: {
       '1': {
-        answer: 'SUN',
+        answer: 'ATUM',
         row: 0,
-        col: 0,
+        col: 1,
       },
-      '4': {
-        answer: 'ONION',
+      '5': {
+        answer: 'CRISE',
         row: 1,
         col: 0,
       },
-      '7': {
-        answer: 'ASTRO',
+      '6': {
+        answer: 'ZERAR',
         row: 2,
         col: 0,
       },
-      '8': {
-        answer: 'RERAN',
+      '7': {
+        answer: 'ANODO',
         row: 3,
         col: 0,
       },
-      '9': {
-        answer: 'STOLE',
+      '8': {
+        answer: 'RASO',
         row: 4,
         col: 0,
       }
     },
     down: {
-      '1': {
-        answer: 'SOARS',
-        row: 0,
+      '5': {
+        answer: 'CZAR',
+        row: 1,
         col: 0,
       },
-      '2': {
-        answer: 'UNSET',
+      '1': {
+        answer: 'ARENA',
         row: 0,
         col: 1,
       },
-      '3': {
-        answer: 'NITRO',
+      '2': {
+        answer: 'TIROS',
         row: 0,
         col: 2,
       },
-      '5': {
-        answer: 'ORAL',
-        row: 1,
+      '3': {
+        answer: 'USADO',
+        row: 0,
         col: 3,
       },
-      '6': {
-        answer: 'NONE',
-        row: 1,
+      '4': {
+        answer: 'MERO',
+        row: 0,
         col: 4,
       }
     }
@@ -176,56 +176,56 @@ const crosswords: CrosswordInput[] = [
   {
     across: {
       '1': {
-        answer: 'MUCK',
+        answer: 'ADAM',
         row: 0,
-        col: 1,
+        col: 0,
       },
       '5': {
-        answer: 'SUSHI',
+        answer: 'COCOS',
         row: 1,
         col: 0,
       },
-      '6': {
-        answer: 'ASHEN',
+      '7': {
+        answer: 'RIADE',
         row: 2,
         col: 0,
       },
-      '7': {
-        answer: 'TEES',
+      '8': {
+        answer: 'ASSEI',
         row: 3,
         col: 0,
       },
-      '8': {
-        answer: 'DRS',
+      '9': {
+        answer: 'OMS',
         row: 4,
-        col: 1,
+        col: 2,
       }
     },
     down: {
       '1': {
-        answer: 'MUSED',
+        answer: 'ACRA',
+        row: 0,
+        col: 0,
+      },
+      '2': {
+        answer: 'DOIS',
         row: 0,
         col: 1,
       },
-      '2': {
-        answer: 'USHER',
+      '3': {
+        answer: 'ACASO',
         row: 0,
         col: 2,
       },
-      '3': {
-        answer: 'CHESS',
+      '4': {
+        answer: 'MODEM',
         row: 0,
         col: 3,
       },
-      '4': {
-        answer: 'KIN',
-        row: 0,
-        col: 4,
-      },
-      '5': {
-        answer: 'SAT',
+      '6': {
+        answer: 'SEIS',
         row: 1,
-        col: 0,
+        col: 4,
       }
     }
   },
@@ -233,54 +233,54 @@ const crosswords: CrosswordInput[] = [
   {
     across: {
       '1': {
-        answer: 'HURT',
+        answer: 'CAEM',
         row: 0,
         col: 0,
       },
       '5': {
-        answer: 'UNHIP',
+        answer: 'ATRAS',
         row: 1,
         col: 0,
       },
       '7': {
-        answer: 'HAITI',
+        answer: 'FORRO',
         row: 2,
         col: 0,
       },
       '8': {
-        answer: 'GNAT',
+        answer: 'EMAIL',
         row: 3,
-        col: 1,
+        col: 0,
       },
       '9': {
-        answer: 'IONS',
+        answer: 'SORO',
         row: 4,
-        col: 1,
+        col: 0,
       }
     },
     down: {
       '1': {
-        answer: 'HUH',
+        answer: 'CAFES',
         row: 0,
         col: 0,
       },
       '2': {
-        answer: 'UNAGI',
+        answer: 'ATOMO',
         row: 0,
         col: 1,
       },
       '3': {
-        answer: 'RHINO',
+        answer: 'ERRAR',
         row: 0,
         col: 2,
       },
       '4': {
-        answer: 'TITAN',
+        answer: 'MARIO',
         row: 0,
         col: 3,
       },
       '6': {
-        answer: 'PITS',
+        answer: 'SOL',
         row: 1,
         col: 4,
       }
@@ -290,103 +290,103 @@ const crosswords: CrosswordInput[] = [
   {
     across: {
       '1': {
-        answer: 'RAD',
+        answer: 'OPALA',
         row: 0,
-        col: 1,
-      },
-      '4': {
-        answer: 'POLED',
-        row: 1,
         col: 0,
       },
       '6': {
-        answer: 'EBONY',
-        row: 2,
+        answer: 'RAPEL',
+        row: 1,
         col: 0,
       },
       '7': {
-        answer: 'RINSE',
-        row: 3,
+        answer: 'APICE',
+        row: 2,
         col: 0,
       },
       '8': {
-        answer: 'KNEE',
-        row: 4,
+        answer: 'LATIM',
+        row: 3,
         col: 0,
       },
     },
     down: {
       '1': {
-        answer: 'ROBIN',
+        answer: 'ORAL',
+        row: 0,
+        col: 0,
+      },
+      '2': {
+        answer: 'PAPA',
         row: 0,
         col: 1,
       },
-      '2': {
-        answer: 'ALONE',
+      '3': {
+        answer: 'APITO',
         row: 0,
         col: 2,
       },
-      '3': {
-        answer: 'DENSE',
+      '4': {
+        answer: 'LECI',
         row: 0,
         col: 3,
       },
-      '4': {
-        answer: 'PERK',
-        row: 1,
-        col: 0,
-      },
       '5': {
-        answer: 'DYE',
-        row: 1,
+        answer: 'ALEM',
+        row: 0,
         col: 4,
-      },
+      }
     }
   },
   // 7
   {
     across: {
       '1': {
-        answer: 'I',
+        answer: 'NOVOS',
         row: 0,
-        col: 1,
-      },
-      '3': {
-        answer: 'BRAND',
-        row: 1,
         col: 0,
       },
       '5': {
-        answer: 'OX',
-        row: 2,
-        col: 1,
+        answer: 'ATOMO',
+        row: 1,
+        col: 0,
       },
       '6': {
-        answer: 'SNEAK',
+        answer: 'VITAL',
+        row: 2,
+        col: 0,
+      },
+      '7': {
+        answer: 'EMA',
         row: 3,
+        col: 0,
+      },
+      '8': {
+        answer: 'SORGO',
+        row: 4,
         col: 0,
       }
     },
     down: {
       '1': {
-        answer: 'IRONY',
+        answer: 'NAVES',
+        row: 0,
+        col: 0,
+      },
+      '2': {
+        answer: 'OTIMO',
         row: 0,
         col: 1,
       },
-      '2': {
-        answer: 'ON',
+      '3': {
+        answer: 'VOTAR',
         row: 0,
-        col: 3,
+        col: 2,
       },
       '4': {
-        answer: 'AXE',
-        row: 1,
-        col: 2
-      },
-      '7': {
-        answer: 'AS',
-        row: 3,
-        col: 3,
+        answer: 'SOLTO',
+        row: 0,
+        col: 4,
       }
     }
   },
