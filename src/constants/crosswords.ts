@@ -83,7 +83,7 @@ const crosswords: CrosswordInput[] = [
         col: 0,
       },
       '9': {
-        answer: 'ERA',
+        answer: 'ARA',
         row: 4,
         col: 0,
       },
