@@ -514,55 +514,55 @@ const crosswords: CrosswordInput[] = [
   {
     across: {
       '1': {
-        answer: 'ORCA',
+        answer: 'AMAR',
         row: 0,
         col: 0,
       },
       '5': {
-        answer: 'DEAL',
+        answer: 'SEDEX',
         row: 1,
         col: 0,
       },
-      '6': {
-        answer: 'DENIM',
+      '7': {
+        answer: 'ATENA',
         row: 2,
         col: 0,
       },
       '8': {
-        answer: 'LAVA',
+        answer: 'SELAR',
         row: 3,
-        col: 1,
+        col: 0,
       },
       '9': {
-        answer: 'SLEW',
+        answer: 'RELA',
         row: 4,
         col: 1,
       },
     },
     down: {
       '1': {
-        answer: 'ODD',
+        answer: 'ASAS',
         row: 0,
         col: 0,
       },
       '2': {
-        answer: 'REELS',
+        answer: 'METER',
         row: 0,
         col: 1,
       },
       '3': {
-        answer: 'CANAL',
+        answer: 'ADELE',
         row: 0,
         col: 2,
       },
       '4': {
-        answer: 'ALIVE',
+        answer: 'RENAL',
         row: 0,
         col: 3,
       },
-      '7': {
-        answer: 'MAW',
-        row: 2,
+      '6': {
+        answer: 'XARA',
+        row: 1,
         col: 4,
       },
     }
@@ -571,56 +571,56 @@ const crosswords: CrosswordInput[] = [
   {
     across: {
       '1': {
-        answer: 'SKEW',
+        answer: 'BARCO',
         row: 0,
-        col: 1,
-      },
-      '5': {
-        answer: 'ATONE',
-        row: 1,
         col: 0,
       },
       '6': {
-        answer: 'IRATE',
-        row: 2,
+        answer: 'IGUAL',
+        row: 1,
         col: 0,
       },
       '7': {
-        answer: 'ROLE',
-        row: 3,
+        answer: 'LIBRE',
+        row: 2,
         col: 0,
       },
       '8': {
-        answer: 'SPAR',
-        row: 4,
+        answer: 'ATENA',
+        row: 3,
         col: 0,
       },
+      '9': {
+        answer: 'COMER',
+        row: 4,
+        col: 0,
+      }
     },
     down: {
       '1': {
-        answer: 'STROP',
+        answer: 'BILAC',
+        row: 0,
+        col: 0,
+      },
+      '2': {
+        answer: 'AGITO',
         row: 0,
         col: 1,
       },
-      '2': {
-        answer: 'KOALA',
+      '3': {
+        answer: 'RUBEM',
         row: 0,
         col: 2,
       },
-      '3': {
-        answer: 'ENTER',
+      '4': {
+        answer: 'CARNE',
         row: 0,
         col: 3,
       },
-      '4': {
-        answer: 'WEE',
+      '5': {
+        answer: 'OLEAR',
         row: 0,
         col: 4,
-      },
-      '5': {
-        answer: 'AIRS',
-        row: 1,
-        col: 0,
       },
     }
   },
@@ -628,34 +628,54 @@ const crosswords: CrosswordInput[] = [
   {
     across: {
       '1': {
-        answer: 'AFROS',
+        answer: 'FRASE',
         row: 0,
         col: 0,
       },
-      '4': {
-        answer: 'HOUSE',
+      '6': {
+        answer: 'REGER',
+        row: 1,
+        col: 0,
+      },
+      '7': {
+        answer: 'ECOAR',
         row: 2,
         col: 0,
       },
-      '5': {
-        answer: 'REEFS',
+      '8': {
+        answer: 'TERNO',
+        row: 3,
+        col: 0,
+      },
+      '9': {
+        answer: 'EMA',
         row: 4,
         col: 0,
       },
     },
     down: {
       '1': {
-        answer: 'ABHOR',
+        answer: 'FRETE',
         row: 0,
         col: 0,
       },
       '2': {
-        answer: 'ROUSE',
+        answer: 'RECEM',
+        row: 0,
+        col: 1,
+      },
+      '3': {
+        answer: 'AGORA',
         row: 0,
         col: 2,
       },
-      '3': {
-        answer: 'SHEDS',
+      '4': {
+        answer: 'SEAN',
+        row: 0,
+        col: 3,
+      },
+      '5': {
+        answer: 'ERRO',
         row: 0,
         col: 4,
       },
