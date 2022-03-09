@@ -395,7 +395,7 @@ const crosswords: CrosswordInput[] = [
   {
     across: {
       '1': {
-        answer: 'IT',
+        answer: 'OI',
         row: 0,
         col: 0,
       },
@@ -405,56 +405,51 @@ const crosswords: CrosswordInput[] = [
         col: 3,
       },
       '5': {
-        answer: 'FACET',
+        answer: 'PAVOR',
         row: 1,
         col: 0,
       },
-      '6': {
-        answer: 'OOZED',
-        row: 3,
+      '7': {
+        answer: 'ATILA',
+        row: 2,
         col: 0,
       },
       '8': {
-        answer: 'NO',
-        row: 4,
+        answer: 'CEGAR',
+        row: 3,
         col: 0,
       },
       '9': {
-        answer: 'DO',
+        answer: 'ASA',
         row: 4,
-        col: 3,
+        col: 0,
       }
     },
     down: {
       '1': {
-        answer: 'IF',
+        answer: 'OPACA',
         row: 0,
         col: 0,
       },
       '2': {
-        answer: 'TABOO',
+        answer: 'IATES',
         row: 0,
         col: 1,
       },
       '3': {
-        answer: 'HEXED',
+        answer: 'HOLA',
         row: 0,
         col: 3,
       },
       '4': {
-        answer: 'IT',
+        answer: 'IRAR',
         row: 0,
         col: 4,
       },
       '6': {
-        answer: 'ON',
-        row: 3,
-        col: 0,
-      },
-      '7': {
-        answer: 'DO',
-        row: 3,
-        col: 4,
+        answer: 'VIGA',
+        row: 1,
+        col: 2,
       }
     },
   },
@@ -462,60 +457,55 @@ const crosswords: CrosswordInput[] = [
   {
     across: {
       '1': {
-        answer: 'HARSH',
-        row: 0,
-        col: 0,
-      },
-      '6': {
-        answer: 'ABATE',
-        row: 1,
-        col: 0,
-      },
-      '7': {
-        answer: 'ROTOR',
-        row: 2,
-        col: 0,
-      },
-      '8': {
-        answer: 'TV',
-        row: 3,
-        col: 0,
-      },
-      '9': {
-        answer: 'NO',
-        row: 3,
-        col: 3,
-      },
-      '10': {
-        answer: 'SEVEN',
-        row: 4,
-        col: 0,
-      },
-    },
-    down: {
-      '1': {
-        answer: 'HARTS',
-        row: 0,
-        col: 0,
-      },
-      '2': {
-        answer: 'ABOVE',
+        answer: 'RAP',
         row: 0,
         col: 1,
       },
-      '3': {
-        answer: 'RAT',
+      '4': {
+        answer: 'COBRE',
+        row: 1,
+        col: 0,
+      },
+      '6': {
+        answer: 'OBRAR',
+        row: 2,
+        col: 0,
+      },
+      '7': {
+        answer: 'MOEDA',
+        row: 3,
+        col: 0,
+      },
+      '8': {
+        answer: 'SUA',
+        row: 4,
+        col: 1,
+      }
+    },
+    down: {
+      '4': {
+        answer: 'COM',
+        row: 1,
+        col: 0,
+      },
+      '1': {
+        answer: 'ROBOS',
+        row: 0,
+        col: 1,
+      },
+      '2': {
+        answer: 'ABREU',
         row: 0,
         col: 2,
       },
-      '4': {
-        answer: 'STONE',
+      '3': {
+        answer: 'PRADA',
         row: 0,
         col: 3,
       },
       '5': {
-        answer: 'HERON',
-        row: 0,
+        answer: 'ERA',
+        row: 1,
         col: 4,
       },
     }
