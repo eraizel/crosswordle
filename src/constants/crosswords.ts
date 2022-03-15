@@ -685,56 +685,56 @@ const crosswords: CrosswordInput[] = [
   {
     across: {
       '1': {
-        answer: 'GO',
+        answer: 'BOTAS',
         row: 0,
-        col: 2,
-      },
-      '3': {
-        answer: 'CRAB',
-        row: 1,
-        col: 1,
-      },
-      '5': {
-        answer: 'SHIRE',
-        row: 2,
         col: 0,
       },
       '6': {
-        answer: 'OATS',
-        row: 3,
+        answer: 'ARUBA',
+        row: 1,
         col: 0,
       },
       '7': {
-        answer: 'IS',
+        answer: 'BARRO',
+        row: 2,
+        col: 0,
+      },
+      '8': {
+        answer: 'ALCE',
+        row: 3,
+        col: 0,
+      },
+      '9': {
+        answer: 'BAU',
         row: 4,
         col: 1,
       },
     },
     down: {
       '1': {
-        answer: 'GRITS',
+        answer: 'BABA',
+        row: 0,
+        col: 0,
+      },
+      '2': {
+        answer: 'ORALB',
+        row: 0,
+        col: 1,
+      },
+      '3': {
+        answer: 'TURCA',
         row: 0,
         col: 2,
       },
-      '2': {
-        answer: 'OARS',
+      '4': {
+        answer: 'ABREU',
         row: 0,
         col: 3,
       },
-      '3': {
-        answer: 'CHAI',
-        row: 1,
-        col: 1,
-      },
-      '4': {
-        answer: 'BE',
-        row: 1,
-        col: 4,
-      },
       '5': {
-        answer: 'SO',
-        row: 2,
-        col: 0,
+        answer: 'SAO',
+        row: 0,
+        col: 4,
       },
     }
   },
@@ -742,56 +742,56 @@ const crosswords: CrosswordInput[] = [
   {
     across: {
       '1': {
-        answer: 'MISS',
+        answer: 'AIPIM',
         row: 0,
-        col: 1,
-      },
-      '4': {
-        answer: 'TAG',
-        row: 1,
-        col: 0,
-      },
-      '5': {
-        answer: 'OIL',
-        row: 2,
         col: 0,
       },
       '6': {
-        answer: 'PLOT',
-        row: 3,
-        col: 0,
-      },
-      '8': {
-        answer: 'SOON',
-        row: 4,
-        col: 1,
-      },
-    },
-    down: {
-      '1': {
-        answer: 'MAILS',
-        row: 0,
-        col: 1,
-      },
-      '2': {
-        answer: 'IGLOO',
-        row: 0,
-        col: 2,
-      },
-      '3': {
-        answer: 'SPY',
-        row: 0,
-        col: 4,
-      },
-      '4': {
-        answer: 'TOP',
+        answer: 'UMIDO',
         row: 1,
         col: 0,
       },
       '7': {
-        answer: 'TO',
+        answer: 'TUNEL',
+        row: 2,
+        col: 0,
+      },
+      '8': {
+        answer: 'ONCA',
         row: 3,
+        col: 0,
+      },
+      '9': {
+        answer: 'REAL',
+        row: 4,
+        col: 0,
+      },
+    },
+    down: {
+      '1': {
+        answer: 'AUTOR',
+        row: 0,
+        col: 0,
+      },
+      '2': {
+        answer: 'IMUNE',
+        row: 0,
+        col: 1,
+      },
+      '3': {
+        answer: 'PINCA',
+        row: 0,
+        col: 2,
+      },
+      '4': {
+        answer: 'IDEAL',
+        row: 0,
         col: 3,
+      },
+      '5': {
+        answer: 'MOL',
+        row: 0,
+        col: 4,
       },
     }
   },
@@ -799,61 +799,56 @@ const crosswords: CrosswordInput[] = [
   {
     across: {
       '1': {
-        answer: 'MIME',
+        answer: 'APOS',
         row: 0,
-        col: 1,
+        col: 0,
       },
-      '4': {
-        answer: 'BAGEL',
+      '5': {
+        answer: 'VARAL',
         row: 1,
         col: 0,
       },
-      '6': {
-        answer: 'OIL',
+      '7': {
+        answer: 'EPOCA',
         row: 2,
         col: 0,
       },
-      '7': {
-        answer: 'PLOP',
+      '8': {
+        answer: 'MACHO',
         row: 3,
         col: 0,
       },
       '9': {
-        answer: 'SOIL',
+        answer: 'LHES',
         row: 4,
         col: 1,
       },
     },
     down: {
       '1': {
-        answer: 'MAILS',
+        answer: 'AVEM',
+        row: 0,
+        col: 0,
+      },
+      '2': {
+        answer: 'PAPAL',
         row: 0,
         col: 1,
       },
-      '2': {
-        answer: 'IGLOO',
+      '3': {
+        answer: 'OROCH',
         row: 0,
         col: 2,
       },
-      '3': {
-        answer: 'ME',
-        row: 0,
-        col: 3,
-      },
       '4': {
-        answer: 'ELK',
+        answer: 'SACHE',
         row: 0,
-        col: 4,
-      },
-      '5': {
-        answer: 'BOP',
-        row: 1,
-        col: 0,
-      },
-      '8': {
-        answer: 'PI',
-        row: 3,
         col: 3,
+      },
+      '6': {
+        answer: 'LAOS',
+        row: 1,
+        col: 4,
       },
     }
   },
@@ -861,51 +856,56 @@ const crosswords: CrosswordInput[] = [
   {
     across: {
       '1': {
-        answer: 'BID',
+        answer: 'MUDA',
         row: 0,
         col: 1,
       },
-      '4': {
-        answer: 'CORED',
+      '5': {
+        answer: 'ANIL',
         row: 1,
-        col: 0,
+        col: 1,
       },
       '6': {
-        answer: 'ANIME',
+        answer: 'ZZTOP',
         row: 2,
         col: 0,
       },
       '7': {
-        answer: 'PESOS',
+        answer: 'IDADE',
         row: 3,
+        col: 0,
+      },
+      '8': {
+        answer: 'PARO',
+        row: 4,
         col: 0,
       },
     },
     down: {
       '1': {
-        answer: 'BONE',
+        answer: 'MAZDA',
         row: 0,
         col: 1,
       },
       '2': {
-        answer: 'IRISH',
+        answer: 'UNTAR',
         row: 0,
         col: 2,
       },
       '3': {
-        answer: 'DEMO',
+        answer: 'DIODO',
         row: 0,
         col: 3,
       },
       '4': {
-        answer: 'CAPE',
-        row: 1,
-        col: 0,
-      },
-      '5': {
-        answer: 'DESK',
-        row: 1,
+        answer: 'ALPE',
+        row: 0,
         col: 4,
+      },
+      '6': {
+        answer: 'ZIP',
+        row: 2,
+        col: 0,
       },
     }
   },
@@ -913,57 +913,57 @@ const crosswords: CrosswordInput[] = [
   {
     across: {
       '1': {
-        answer: 'UNZIP',
-        row: 0,
-        col: 0,
-      },
-      '5': {
-        answer: 'POET',
-        row: 1,
-        col: 0,
-      },
-      '7': {
-        answer: 'EERIE',
-        row: 3,
-        col: 0,
-      },
-      '9': {
-        answer: 'ANT',
-        row: 4,
-        col: 2,
-      },
-    },
-    down: {
-      '1': {
-        answer: 'UPPER',
-        row: 0,
-        col: 0,
-      },
-      '2': {
-        answer: 'NO',
+        answer: 'DOER',
         row: 0,
         col: 1,
       },
-      '3': {
-        answer: 'ZEBRA',
+      '5': {
+        answer: 'SALDO',
+        row: 1,
+        col: 0,
+      },
+      '6': {
+        answer: 'ANEIS',
+        row: 2,
+        col: 0,
+      },
+      '7': {
+        answer: 'ETAPA',
+        row: 3,
+        col: 0,
+      },
+      '8': {
+        answer: 'MERO',
+        row: 4,
+        col: 0,
+      },
+    },
+    down: {
+      '5': {
+        answer: 'SAEM',
+        row: 1,
+        col: 0,
+      },
+      '1': {
+        answer: 'DANTE',
+        row: 0,
+        col: 1,
+      },
+      '2': {
+        answer: 'OLEAR',
         row: 0,
         col: 2,
       },
-      '4': {
-        answer: 'IT',
+      '3': {
+        answer: 'EDIPO',
         row: 0,
         col: 3,
       },
-      '6': {
-        answer: 'LET',
-        row: 2,
+      '4': {
+        answer: 'ROSA',
+        row: 0,
         col: 4,
       },
-      '8': {
-        answer: 'IN',
-        row: 3,
-        col: 3,
-      }
     }
   },
   // 18
